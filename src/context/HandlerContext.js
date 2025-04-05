@@ -2,8 +2,8 @@ import React, { createContext, useState } from "react";
 const HandlerContext = createContext()
 
 const HandlerState =(props)=>{
-    // const host = "https://api.azown.com/api"
-    const host = "http://localhost:5000"
+    const host = "https://api.azown.com"
+    // const host = "http://localhost:5000"
     const [handpropsdata , sethandpropsdata ] = useState([])
     const [ownerHandlerData , setOwnerHandlerData ] = useState([])
 
